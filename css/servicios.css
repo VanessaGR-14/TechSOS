@@ -1,0 +1,63 @@
+.main__servicio {
+  background-color: var(--primary-dark);
+  min-height: 95vh;
+  overflow-y: auto;
+  padding: 0 20px 15px;
+}
+
+.servicio__container {
+  display: flex;
+  min-height: 75vh;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.servicio__titulo {
+  color: white;
+  padding: 20px 0 20px;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.servicio__parrafo {
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: -15px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #000;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px 15px;
+  max-width: 250px;
+  max-height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card__img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card__parrafo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--neutral);
+  margin: 0;
+}

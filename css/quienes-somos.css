@@ -1,0 +1,70 @@
+.conte {
+  display: flex;
+  justify-content: center;
+}
+
+.quienesSomos__descripcion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  min-height: 47vh;
+  height: auto;
+  gap: 20px;
+  margin: 35px 0;
+  align-self: center;
+}
+
+.quienesSomos__titulo {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.quienesSomos__descripcion__parrafo {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--neutral);
+  text-align: justify;
+  padding: 0 15px 10px;
+  margin: 0;
+}
+
+.img-separa {
+  background: url(../assets/quienes-somos.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
+  flex: 0;
+}
+
+.quienesSomos__politica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.politica__vision__titulo,
+.politica__mision__titulo,
+.politica__valores__titulo {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--primary-dark);
+}
+
+.politica__mision__parrafo,
+.politica__vision__parrafo,
+.politica__valores__parrafo {
+  text-align: center;
+  line-height: 1.6;
+  color: var(--neutral);
+  margin-top: -15px;
+  padding: 0 20px;
+}
+
+@media (max-width: 830px) {
+}

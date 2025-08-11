@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+:root {
+  --primary-color: #1e537f;
+  --primary-dark: #02253f;
+  --second-color: #1279bc;
+  --neutral: #3a393c;
+  --accent: #5d6ddf;
+}
