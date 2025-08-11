@@ -35,11 +35,18 @@
 .contacto__info__refe i {
   font-size: 2rem;
   align-self: center;
+  text-align: start;
+}
+
+.iconSize {
+  width: 28px;
+  width: 33.6px;
 }
 
 .contacto__info__refe__link {
   color: var(--neutral);
   text-decoration: none;
+  text-align: start;
   padding-left: 10px;
   font-size: 1.1rem;
   font-weight: 600;

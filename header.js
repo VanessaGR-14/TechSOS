@@ -5,7 +5,7 @@ function actualizarContenido() {
   const contacto = document.getElementById("contacto");
   const ancho = window.innerWidth;
 
-  if (ancho <= 428) {
+  if (ancho <= 435) {
     inicio.innerHTML = `<i class="fa-solid fa-house fa-lg" style="color: #ffffff"></i
           >`;
     servicio.innerHTML = `<span class="material-symbols-outlined">
@@ -16,7 +16,7 @@ home_repair_service
   } else {
     inicio.textContent = "Inicio";
     servicio.textContent = "Servicio";
-    quienesSomos.textContent = "¿Quiénes somos?";
+    quienesSomos.textContent = "Nosotros";
     contacto.textContent = "Contáctanos";
   }
 }

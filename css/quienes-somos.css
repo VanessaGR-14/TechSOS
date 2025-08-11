@@ -70,5 +70,6 @@
   .img-separa {
     background-attachment: scroll; /* Evita el zoom raro en móviles */
     background-position: center top; /* Ajusta el foco */
+    position: sticky;
   }
 }

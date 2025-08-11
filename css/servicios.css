@@ -50,7 +50,7 @@
 
 .card__img {
   width: 80%;
-  height: 70%;
+  height: 68%;
   object-fit: contain;
   margin-bottom: 15px;
 }
@@ -60,4 +60,5 @@
   font-weight: 600;
   color: var(--neutral);
   margin: 0;
+  padding: 10px 0;
 }
