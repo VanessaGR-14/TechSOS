@@ -66,5 +66,9 @@
   padding: 0 20px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 768px) {
+  .img-separa {
+    background-attachment: scroll; /* Evita el zoom raro en móviles */
+    background-position: center top; /* Ajusta el foco */
+  }
 }
